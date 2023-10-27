@@ -1,0 +1,69 @@
+
+
+/* Media Query for Mobile Devices */ 
+@media (max-width: 480px) { 
+    body { 
+        background-color: $bg-color; 
+    } 
+    .signup{
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        
+    }
+    .signup .p{
+        color: #131212;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 275px;
+        margin: auto;
+    }
+} 
+  
+/* Media Query for low resolution  Tablets, Ipads */ 
+@media (min-width: 481px) and (max-width: 768px) { 
+    body { 
+        background-color: yellow; 
+    } 
+    .signup{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .signup .p{
+        color: #131212;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 275px;
+    }
+} 
+  
+/* Media Query for Tablets Ipads portrait mode */ 
+@media (min-width: 769px) and (max-width: 1024px){ 
+    body { 
+        background-color: blue; 
+    } 
+} 
+  
+/* Media Query for Laptops and Desktops */ 
+@media (min-width: 1025px) and (max-width: 1200px){ 
+    body { 
+        background-color: green; 
+    } 
+} 
+  
+/* Media Query for Large screens */ 
+@media (min-width: 1201px) { 
+    body { 
+        background-color: white; 
+    } 
+} 
