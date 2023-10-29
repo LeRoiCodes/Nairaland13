@@ -1,0 +1,23 @@
+{
+  "name": "nairaland13",
+  "version": "1.0.0",
+  "description": "a basic html project",
+  "scripts": {
+    "css": "node-sass --include-path scss scss/main.scss styles.css",
+    "watch": "nodemon -e scss -x 'npm run css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeRoiCodes/Nairaland13.git"
+  },
+  "author": "team 13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeRoiCodes/Nairaland13/issues"
+  },
+  "homepage": "https://github.com/LeRoiCodes/Nairaland13#readme",
+  "devDependencies": {
+    "node-sass": "9.0.0",
+    "nodemon": "3.0.1"
+  }
+}
