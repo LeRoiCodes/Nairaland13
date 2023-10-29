@@ -79,3 +79,11 @@
 @media (min-width: 1201px) { 
     
 } 
+
+@media (min-width: 1025px) { 
+    .signup form{
+        // width: 361px;
+        width: 75%;
+        // height: 352px;
+    }
+}
