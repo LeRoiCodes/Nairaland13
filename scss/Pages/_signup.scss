@@ -11,7 +11,7 @@ body {
     margin: auto;
 }
 .signup-container{
-    // width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -101,10 +101,14 @@ body {
     .signup .banner{
         display: block;
         width: 50%;
-        height: 100%;
+        // height: 100%;
         border-radius: 0px 10px 10px 0px;
     }
     .signup .footnote{
+        width: 90%;
         margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
     }
 } 
