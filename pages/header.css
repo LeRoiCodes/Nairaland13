@@ -1,0 +1,145 @@
+.header {
+  margin-left: 350px;
+}
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  max-width: 1106px;
+  background-color: #f6f5ec;
+  align-items: center;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+.list {
+  display: none;
+}
+.nav-p {
+  margin-left: 10px;
+}
+.nav-left {
+  max-width: 200px;
+  height: 30px;
+  padding-top: 0px;
+  margin-right: 5px;
+}
+.bell {
+  width: 24px;
+  height: 24px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-right: 10px;
+}
+.img {
+  max-width: 78px;
+  max-height: 30px;
+  margin-right: 10px;
+}
+.second-nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+input {
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 30px;
+  width: 483px;
+  box-shadow: 5px 10px white;
+}
+.search {
+  position: absolute;
+  right: 520px;
+  /* right: 80px;
+  bottom: 5px; */
+  top: 90px;
+  width: 30px;
+}
+.btn-cross {
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding: 5px;
+  box-shadow: 5px 10px white;
+  margin-left: 10px;
+  border: none;
+}
+.vector {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 15px;
+  right: 158px;
+}
+@media (max-width: 480px) {
+  .header {
+    margin: 0px;
+  }
+  .list {
+    display: block;
+  }
+  .search {
+    position: absolute;
+    right: 30px;
+    /* right: 80px;
+  bottom: 5px; */
+    top: 100px;
+    width: 20px;
+  }
+  .btn-cross {
+    display: none;
+  }
+  .vector {
+    display: none;
+  }
+}
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .header {
+    margin: 0px;
+  }
+  .list {
+    display: block;
+  }
+  .search {
+    position: absolute;
+    right: 30px;
+    /* right: 80px;
+  bottom: 5px; */
+    top: 100px;
+    width: 20px;
+  }
+  .btn-cross {
+    display: none;
+  }
+  .vector {
+    display: none;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    margin: 0px;
+  }
+  .list {
+    display: block;
+  }
+  .search {
+    position: absolute;
+    right: 30px;
+    /* right: 80px;
+  bottom: 5px; */
+    top: 100px;
+    width: 20px;
+  }
+  .btn-cross {
+    display: none;
+  }
+  .vector {
+    display: none;
+  }
+}
