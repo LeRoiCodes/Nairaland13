@@ -1,6 +1,3 @@
-.header {
-  margin-left: 350px;
-}
 .home-nav-wrap {
   display: flex;
   justify-content: space-between;
@@ -50,7 +47,7 @@ input {
 }
 .home-search {
   position: absolute;
-  right: 520px;
+  right: 900px;
   /* right: 80px;
   bottom: 5px; */
   top: 90px;
@@ -71,7 +68,7 @@ input {
   height: 20px;
   position: relative;
   top: 15px;
-  right: 158px;
+  right: 228px;
 }
 @media (max-width: 480px) {
   .header {
