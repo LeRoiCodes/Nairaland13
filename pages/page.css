@@ -1,3 +1,20 @@
+.whole-section {
+  max-width: 1388px;
+  display: flex;
+}
+.logo-main {
+  width: 120px;
+  height: 15px;
+}
+
+.grid {
+  max-width: 274px;
+  max-height: 2090px;
+  align-items: center;
+  background-color: #f6f5ec;
+  text-align: center;
+  padding: 10px;
+}
 .header {
   margin-left: 18px;
 }
@@ -77,6 +94,139 @@ input {
   position: relative;
   top: 15px;
   right: 178px;
+}
+
+/* page css */
+.main {
+  max-width: 1106px;
+  max-height: 1716;
+  background-color: #f6f5ec;
+}
+.hero {
+  max-width: 1106px;
+  max-height: 54px;
+  background-color: #e8ece0;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 20px;
+  border: none;
+  box-shadow: 5px 2px 5px 2px grey;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  margin-left: 0px;
+}
+
+li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+.hero-left {
+  display: flex;
+}
+.date {
+  margin-left: 5px;
+}
+.comment-container {
+  max-width: 1058px;
+  max-height: 230px;
+  margin-left: 29px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 2px grey;
+  background-color: #f6f5ec;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.comment {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+.view {
+  margin-top: 5px;
+}
+.comment-left img {
+  position: relative;
+  bottom: 60px;
+  right: 10px;
+}
+
+.comment-left {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+.no {
+  font-size: small;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px;
+  padding-bottom: 7px;
+}
+.logo {
+  padding-top: 10px;
+  width: 100px;
+  height: 30px;
+  padding-left: 10px;
+}
+/* .footer-left img {
+  margin-left: 10px;
+  width: 50px;
+  height: 20px;
+  padding-left: 10px;
+} */
+.footer-right button {
+  padding: 8px 8px;
+  background-color: #e8ece0;
+  border: none;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+/* footer css */
+footer {
+  max-width: 1106px;
+  height: 148px;
+  background-color: #f6f5ec;
+  padding-right: 200px;
+  padding-left: 20;
+  padding-bottom: 70px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+.footer-nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.social {
+  height: 20px;
+  width: 70px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+footer p {
+  text-align: center;
 }
 
 /* media query */
